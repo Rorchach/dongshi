@@ -72,4 +72,14 @@ jQuery(document).ready(function($) {
 	},{accX: 0, accY: -50});
 });
 
+$('#train .train-item').hover(function () {
+    $(this).velocity({
+        scale: 1.2
+    });
+}, function () {
+    $(this).velocity({
+        scale: 1
+    });
+});
+
 window.sr = new scrollReveal();
