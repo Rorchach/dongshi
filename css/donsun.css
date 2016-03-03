@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 .cover {
-    background: url(/img/overlay.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url(../img/overlay.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
     position: absolute;
     right: 0px;
     left: 0px;
@@ -1207,7 +1207,7 @@ body {
 /*about*/
 .about-bg{
     padding: 130px 0;
-    background:#313131 url(/img/about-bg.jpg) no-repeat center;
+    background:#313131 url(/img/about-bg.png) no-repeat center;
     background-size: 100% auto;
     position: relative;
     z-index:1;
@@ -1273,8 +1273,6 @@ body {
 }
 
 #train .train-item {
-    width: 33.33333%;
-    float: left;
 }
 
 #train .train-item img {
