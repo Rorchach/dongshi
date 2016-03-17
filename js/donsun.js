@@ -46,10 +46,10 @@ jQuery(function($){
 	// Components							
 	slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 	slides 					:  	[			// Slideshow Images
-										{image : '../img/bg/1.jpg'},
-										{image : '../img/bg/2.jpg'},
-										{image : '../img/bg/3.jpg'}
-	]
+		{image : '../img/bg/1.jpg'},
+		{image : '../img/bg/2.jpg'},
+		{image : '../img/bg/3.jpg'}
+	   ]
 	});
 });
 $(document).ready(function(){

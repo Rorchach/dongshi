@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 gulp.task('default', function() {
     gulp.src([
         './css/bootstrap.min.css',
-        './css/supersized.css"',
+        './css/supersized.css',
         './css/donsun.css'
     ])
     .pipe(concat('all.css'))
